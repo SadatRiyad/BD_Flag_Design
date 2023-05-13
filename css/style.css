@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: serif;
+    font-size: 14px;
+    line-height: 24px;
+    height: 1500px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.green{
+    width: 700px;
+    height: 400px;
+    background: green;
+    position: relative;
+}
+.red{
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 47%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+.yellow{
+    width: 280px;
+    height: 85px;
+    background: yellow;
+    border-radius: 22%;
+    text-align: center;
+    font-size: 26px;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    cursor: pointer;
+    transition: 1s;
+}
+.yellow:hover{
+background: black;
+color: #fbf9f9;
+}
+.fb{
+    width: 300px;
+    position: fixed;
+    top: 30%;
+    bottom: 3%;
+    right: -230px;
+    transition: 2s;
+}
+.fb:hover{
+    right: 3px;
+    cursor: pointer;
+}
+.insta{
+    width: 300px;
+    position: fixed;
+    top: 40%;
+    bottom: 3%;
+    right: -227px;
+    transition: 2s;
+}
+.insta:hover{
+    right: 3px;
+    cursor: pointer;
+}
+.twt{
+    width: 300px;
+    position: fixed;
+    top: 60%;
+    bottom: 1%;
+    right: -235px;
+    transition: 2s;
+}
+.twt:hover{
+    right: 3px;
+    cursor: pointer;
+}
+
+.social-icon{
+    width: 900px;
+    display: block;
+    text-align: justify;
+    padding: 150px 0px 0px;
+}
+.social-icon li{
+    list-style: none;
+    display: inline-block;
+}
+.social-icon li a{
+    display: block;
+    width: 90px;
+    line-height: 90px;
+    font-size: 40px; 
+    text-align: center;
+    background: blue;
+    color: white;
+    margin: 0px 15px; 
+    border-radius: 50%;
+    transition: 1s;
+}
+.social-icon li a:hover{
+    background: black;
+    color: white;
+    }
